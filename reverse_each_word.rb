@@ -6,3 +6,21 @@ def reverse_each_word(string)
 end
   new_array.join(" ")
 end
+
+
+
+
+
+def reverse_each_word(sentence)
+  array = []
+  array << sentence.split("")
+  array.reverse.join
+  array
+end
+
+
+
+
+
+
+
